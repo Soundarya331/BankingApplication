@@ -32,7 +32,7 @@ public class SavingAccount extends Account {
     }
 
     @Override
-    public void withDraw(String accountNumber, Customer customer, double amount) {
+    public void withdraw(String accountNumber, Customer customer, double amount) {
 
         if (!this.accountNumber.equals(accountNumber)) {
             System.out.println("Invalid account number");

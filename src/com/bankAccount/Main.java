@@ -39,7 +39,7 @@ public class Main {
 		while(true) {
 			
 		
-		System.out.println("Do you want to perform 1.Depost 2.Withdraw 3.Exit");
+		System.out.println("Do you want to perform 1. Depost 2. Withdraw 3. Exit");
 		int input = sc.nextInt();
 		
 		if(input==3) {
@@ -58,7 +58,7 @@ public class Main {
 			
 			System.out.println("Enter the withdrawal amount : " );
 			withdrawalAmount = sc.nextDouble();
-			account.withDraw(accountNumber, customer, withdrawalAmount);
+			account.withdraw(accountNumber, customer, withdrawalAmount);
 			
 		}
 		}

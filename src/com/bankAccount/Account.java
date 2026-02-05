@@ -14,7 +14,7 @@ package com.bankAccount;
 	  
 	 public  abstract void deposit(String accountNumber, Customer cus, double accountBalance);
 	 
-	 public abstract void  withDraw(String accountNumber, Customer cus, double accountBalance);
+	 public abstract void  withdraw(String accountNumber, Customer cus, double accountBalance);
 	 	  
 	  
   }
