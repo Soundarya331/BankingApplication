@@ -1,10 +1,7 @@
 package com.HealthPolicy;
 
 public class VehicleInsurancePolicy implements InsurancePolicy {
-//	
-//	Policy Holder Name
-//    Vehicle Type (TwoWheeler or FourWheeler)
-//    Vehicle Value
+
 	
 	private String holderName ;
 	private String vehicleType;

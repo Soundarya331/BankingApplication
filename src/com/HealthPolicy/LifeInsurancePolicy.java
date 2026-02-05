@@ -1,15 +1,7 @@
 package com.HealthPolicy;
 
 public class LifeInsurancePolicy implements InsurancePolicy {
-//	
-//	  Policy Holder Name
-//	    Sum Assured
-//	    Policy Term (in years)
-//	Premium Calculation Rules
-//	    Annual premium is calculated based on:
-//	    Total coverage amount
-//	    Duration of the policy
-//	A fixed rate of 5% is applied on the per-year coverage amount    
+  
 	
 	private String holderName;
 	private double sumAssured;
