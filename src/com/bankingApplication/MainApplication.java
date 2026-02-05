@@ -17,11 +17,14 @@ public class MainApplication {
 
         int attempts = 0;
         boolean validPinEntered = false;
+        String pin ;
+        System.out.println("Enter 4-digit PIN:");
+        
+        pin = sc.next();
+        input.setPin(pin);
 
         while (attempts < MAX_ATTEMPTS) {
-            System.out.println("Enter 4-digit PIN:");
-            String pin = sc.next();
-
+           
           
             if (!Application.isValidPin(pin)) {
                 attempts++;

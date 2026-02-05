@@ -6,10 +6,6 @@ import java.util.Scanner;
 public class Shop {
 	
 	
-	public static void product() {
-		
-		
-	}
 	
 	
 	public static void main(String[] args) {
