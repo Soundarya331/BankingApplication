@@ -1,4 +1,4 @@
-package com.bankingApplication;
+package com.bankingapplication;
 
 public class Application {
 

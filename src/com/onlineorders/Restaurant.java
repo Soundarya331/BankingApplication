@@ -1,4 +1,4 @@
-package com.onlineOrders;
+package com.onlineorders;
 
 public class Restaurant implements Orders {
 	

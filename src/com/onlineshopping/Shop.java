@@ -1,4 +1,4 @@
-package com.onlineShopping;
+package com.onlineshopping;
 
 
 import java.util.Scanner;

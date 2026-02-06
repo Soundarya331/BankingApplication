@@ -1,4 +1,4 @@
- package com.bankingApplication;
+ package com.bankingapplication;
 
 import java.util.Scanner;
 

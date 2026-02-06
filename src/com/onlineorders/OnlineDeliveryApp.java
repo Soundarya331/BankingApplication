@@ -1,4 +1,4 @@
-package com.onlineOrders;
+package com.onlineorders;
 
 import java.util.Scanner;
 

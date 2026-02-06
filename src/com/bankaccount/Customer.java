@@ -1,4 +1,4 @@
-package com.bankAccount;
+package com.bankaccount;
 
 public class Customer {
 	

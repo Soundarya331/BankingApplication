@@ -1,4 +1,4 @@
-package com.HealthPolicy;
+package com.insurancepolicy;
 
 public class LifeInsurancePolicy implements InsurancePolicy {
   

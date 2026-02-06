@@ -1,4 +1,4 @@
-package com.studentMarksCard;
+package com.studentmarkscard;
 
 import java.util.Scanner;
 
