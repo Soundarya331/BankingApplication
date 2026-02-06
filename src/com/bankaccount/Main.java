@@ -58,7 +58,12 @@ public class Main {
 			
 			System.out.println("Enter the withdrawal amount : " );
 			withdrawalAmount = sc.nextDouble();
-			account.withdraw(accountNumber, customer, withdrawalAmount);
+			try {
+				account.withdraw(accountNumber, customer, withdrawalAmount);
+			} catch (InsufficentBalanceException e) {
+				// TODO Auto-generated catch block
+				System.out.println(e.getMessage());
+			}
 			
 		}
 		}

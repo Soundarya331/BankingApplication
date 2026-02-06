@@ -1,6 +1,6 @@
 package com.bankaccount;
 
-public class SavingAccount extends Account {
+public class SavingAccount extends Account  {
 
     @Override
     public void deposit(String accountNumber, Customer customer, double amount) {
@@ -32,7 +32,7 @@ public class SavingAccount extends Account {
     }
 
     @Override
-    public void withdraw(String accountNumber, Customer customer, double amount) {
+    public void withdraw(String accountNumber, Customer customer, double amount) throws InsufficentBalanceException {
 
         if (!this.accountNumber.equals(accountNumber)) {
             System.out.println("Invalid account number");
@@ -50,8 +50,7 @@ public class SavingAccount extends Account {
         }
 
         if (accountBalance < amount) {
-            System.out.println("Insufficient balance");
-            return;
+        	 throw new InsufficentBalanceException ( "Insufficent balances ");
         }
 
         accountBalance = accountBalance - amount ;

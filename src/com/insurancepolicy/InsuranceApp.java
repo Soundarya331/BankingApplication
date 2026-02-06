@@ -2,7 +2,7 @@ package com.insurancepolicy;
 
 import java.util.Scanner;
 
-public class InsuranceApp {
+public class InsuranceApp  {
 	
 	public static void main(String[] args) {
 		int input;
@@ -54,13 +54,9 @@ public class InsuranceApp {
 				System.out.println("Thank you for choosing us!!!");
 				break;
 			}
-			
-			
-			
+				
 		}
-		
-		
-		
+		sc.close();
 		
 		
 	}

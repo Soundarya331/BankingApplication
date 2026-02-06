@@ -14,7 +14,7 @@ package com.bankaccount;
 	  
 	 public  abstract void deposit(String accountNumber, Customer cus, double accountBalance);
 	 
-	 public abstract void  withdraw(String accountNumber, Customer cus, double accountBalance);
+	 public abstract void  withdraw(String accountNumber, Customer cus, double accountBalance) throws InsufficentBalanceException;
 	 	  
 	  
   }
