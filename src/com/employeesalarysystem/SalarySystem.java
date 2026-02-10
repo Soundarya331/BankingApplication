@@ -103,7 +103,7 @@ public class SalarySystem {
                             }
                         }
 
-                        // Hourly Rate validation
+                      
                         while (true) {
                             try {
                                 System.out.println("Enter Hourly Rate:");
