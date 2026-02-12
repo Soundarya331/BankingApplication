@@ -4,41 +4,28 @@ import java.util.*;
 import com.training.insurancepolicy.PolicyDetails.policyStatus;
 import com.training.insurancepolicy.PolicyDetails.policyType;
 
-/**
- * Implementation class for Insurance interface
- * Handles policy management operations using List and Map
- * Includes premium calculation logic
- */
+
 public class PolicyManagementSystem implements Insurance {
     
     // Using both List and Map as required
     private List<PolicyDetails> policyList = new ArrayList<>();
     private Map<Integer, PolicyDetails> policyMap = new HashMap<>();
     
-    /**
-     * Calculate final premium based on base premium and policy type
-     * 
-     * Premium Increase Rules:
-     * HEALTH  -> +20%
-     * LIFE    -> +35%
-     * VEHICLE -> +15%
-     * TRAVEL  -> +10%
-     */
     private double calculatePremium(double basePremium, policyType type) {
         double increasePercentage = 0;
         
         switch (type) {
             case HEALTH:
-                increasePercentage = 0.20; // +20%
+                increasePercentage = 0.20; 
                 break;
             case LIFE:
-                increasePercentage = 0.35; // +35%
+                increasePercentage = 0.35; 
                 break;
             case VEHICLE:
-                increasePercentage = 0.15; // +15%
+                increasePercentage = 0.15; 
                 break;
             case TRAVEL:
-                increasePercentage = 0.10; // +10%
+                increasePercentage = 0.10; 
                 break;
         }
         
